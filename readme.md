@@ -29,8 +29,9 @@ MediScan includes a modular pipeline where each component contributes to accurat
 - In the pipeline:
   - The cleaned OCR + NER output is fed into the DistilBERT masked LM.
   - It predicts missing or corrupted parts using `[MASK]` tokens.
- ' ' ' plain text 
+
 ## Project Structure
+ ```
 MediScan/
 ├── app/
 │   ├── __init__.py
@@ -41,7 +42,7 @@ MediScan/
 ├── requirements.txt              # Dependencies
 └── README.md                     # This file
 
-' ' ' 
+ ```
 
 ## IoT & Mobile Camera Integration
 Raspberry Pi / USB cam:
